@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+nav a {
+    margin-right: 15px;
+    font-weight: bold;
+}
+/* ==== Global ==== */
+
+body {
+    margin: 0;
+    background: #0c0f18;
+    color: #e4e6eb;
+    font-family: "Segoe UI", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #58a6ff;
+}
+
+a:hover {
+    color: #7db5ff;
+}
+
+/* ==== Navbar ==== */
+
+nav {
+    background: #111827;
+    padding: 15px 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-bottom: 1px solid #1f2937;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e5e7eb;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+/* ==== Dashboard Cards ==== */
+
+.container {
+    padding: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #1f2937;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #374151;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #273244;
+}
+
+/* ==== Section Titles ==== */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* ==== Log Items ==== */
+
+.log-item {
+    background: #111827;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #1f2937;
+    transition: 0.2s;
+}
+
+.log-item:hover {
+    background: #182131;
+}
+
+/* ==== Playbook Steps ==== */
+
+.step {
+    background: #111827;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    transition: 0.2s;
+}
+
+.step:hover {
+    background: #182131;
+}
