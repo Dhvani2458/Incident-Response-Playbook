@@ -1,0 +1,20 @@
+{
+    "name": "Insider Threat Response Playbook",
+    "description": "Response procedure for detecting and handling malicious or negligent insider activity.",
+    "steps": [
+        "Identify suspicious user activity via SIEM alerts — unusual login times, large data transfers, or unauthorized access.",
+        "Correlate activity with user roles to determine if the behavior violates policy.",
+        "Initiate silent monitoring to avoid alerting the insider.",
+        "Restrict access privileges temporarily while maintaining operational continuity.",
+        "Capture system logs, emails, and file access records for evidence.",
+        "Notify HR and senior security leadership about the ongoing investigation.",
+        "Interview relevant teams discreetly to understand context and access requirements.",
+        "Block unauthorized data transfers and isolate affected endpoints.",
+        "Disable insider’s account if risk is confirmed.",
+        "Conduct full forensic analysis of affected systems and data exfiltration paths.",
+        "Restore data, revoke unauthorized permissions, and patch internal security gaps.",
+        "Prepare a detailed report including intent, timeline, and ramifications.",
+        "Implement improved access controls, MFA enforcement, and least-privilege updates.",
+        "Conduct team training to reduce future risks."
+    ]
+}

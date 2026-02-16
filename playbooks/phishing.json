@@ -1,0 +1,11 @@
+{
+  "name": "Phishing Attack Playbook",
+  "steps": [
+    "Verify reported phishing email",
+    "Identify affected users",
+    "Block sender domain",
+    "Reset compromised passwords",
+    "Update email filters",
+    "Educate affected users"
+  ]
+}

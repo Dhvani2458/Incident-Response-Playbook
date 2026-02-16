@@ -1,0 +1,21 @@
+{
+    "name": "Unauthorized Access Response Playbook",
+    "description": "Step-by-step response to detect, contain, and eliminate unauthorized system access.",
+    "steps": [
+        "Verify SIEM alert indicating unauthorized login or privilege escalation.",
+        "Check source IP, geolocation, and timestamp to confirm legitimacy.",
+        "Determine if the affected account is compromised or misused.",
+        "Immediately disable the compromised account and force password reset.",
+        "Revoke any elevated privileges granted during the incident.",
+        "Isolate the affected system from the network if malicious activity is detected.",
+        "Capture volatile data — running processes, open connections, memory snapshot.",
+        "Review logs for lateral movement or additional compromised accounts.",
+        "Scan impacted systems for malware, persistence mechanisms, or backdoors.",
+        "Remove malicious software, terminate unauthorized sessions, and close open ports.",
+        "Patch vulnerabilities that allowed unauthorized access (weak passwords, missing updates, exposed services).",
+        "Restore system integrity and validate normal operation.",
+        "Notify relevant stakeholders and document the full attack path.",
+        "Implement stronger authentication controls, firewall rules, and monitoring.",
+        "Perform a lessons-learned review and update policies accordingly."
+    ]
+}
