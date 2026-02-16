@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Available Playbooks</h2>
+
+<div class="card-grid">
+    {% for p in playbooks %}
+        <a href="/playbook/{{ p }}">
+            <div class="card">
+                <h3>📘 {{ p.replace('.json','') }}</h3>
+                <p>Click to open playbook</p>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+
+{% endblock %}

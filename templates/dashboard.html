@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Incident Response Dashboard</h2>
+
+<div class="card-grid">
+    <a href="/logs">
+        <div class="card">
+            <h3>🔍 View SIEM Logs</h3>
+            <p>Analyze events detected by your SIEM.</p>
+        </div>
+    </a>
+
+    <a href="/playbooks">
+        <div class="card">
+            <h3>📘 Incident Playbooks</h3>
+            <p>Follow structured response actions.</p>
+        </div>
+    </a>
+
+</div>
+
+{% endblock %}

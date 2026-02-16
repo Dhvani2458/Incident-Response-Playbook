@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>{{ playbook.name }}</h2>
+
+{% for step in playbook.steps %}
+    <div class="step">
+        <strong>Step {{ loop.index }}:</strong> {{ step }}
+    </div>
+{% endfor %}
+
+{% endblock %}
